@@ -45,7 +45,10 @@ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #image1 {
-    border: 5px solid black;
+float: left;
+    border: 5px solid  rgb(219, 112, 11);
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .topnav {
@@ -58,7 +61,7 @@ width: 100%;
 background: white;
 overflow: hidden;
 font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
-
+z-index: 1;
 }
 .topnav a {
     
@@ -92,8 +95,8 @@ padding: 0 20px;
 line-height: 100px;
 font-family: "Arial Black", Gadget, sans-serif;
 font-size: 18px;
-color: rgb(24, 23, 23);
-
+color: rgb(16, 25, 112);
+text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 a link:visited {
