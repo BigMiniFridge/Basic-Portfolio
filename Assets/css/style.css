@@ -13,6 +13,10 @@ html {
     -o-background-size: cover;
     background-size: cover;
   }
+
+body {
+    background: transparent;
+}
 #headermain {
 
     width: 100%;
@@ -26,8 +30,8 @@ html {
     float: right;
     position: relative;
     left: -50%;
-    padding: 10px;
-    margin: 150px auto 0 auto;
+    padding-top: 75px;
+    margin:  auto 0 auto;
     width: 80%;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 20px;
@@ -38,8 +42,11 @@ html {
 
 .maincontentportfolio {
 
-    float: right;
-   padding-top: 150px;
+
+
+/* 
+    float: right; */
+   padding-top: 95px;
    
     
 
@@ -68,7 +75,7 @@ left: 0;
     top: 0;
     border-bottom: 2px solid rgb(219, 112, 11);
     position: fixed;
-    height: 100px;
+    height: 77px;
     width: 100%;
     background: rgb(53, 52, 52);
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
@@ -105,8 +112,8 @@ border-left: 0
     float: left;
     left: 0;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colorado_designed_by_Andrew_Carlisle_Carson.svg");
-    padding: 0 20px;
-    line-height: 100px;
+    padding: 2px 2px;
+    line-height: 73px;
     font-family: "Arial Black", Gadget, sans-serif;
     font-size: 18px;
     color: rgb(16, 25, 112);
@@ -133,7 +140,7 @@ h1 {
     border-bottom: 2px solid rgb(219, 112, 11);
     color: rgb(219, 112, 11);
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
+text-align:center;
 }
 
 .footer {
@@ -141,13 +148,13 @@ h1 {
     position: fixed;
     left: 0;
     bottom: 0;
-    height: 40px;
+    height: 20px;
     width: 100%;
     border-top: 2px solid rgb(219, 112, 11);
     z-index: 1;
     background: rgb(53, 52, 52);
     text-align: center; 
-    padding: 20px;
+    padding: 5px;
     opacity: .85;
 
 }
