@@ -33,10 +33,27 @@
         <div class="maincontent">
             <div class="child">
                 <strong>
-                    <h1>Contact</h1>
+                    <h1>
+                        <p>Contact</p>
+                        <p>P: 555-555-5555</p>
+                        <p>Email Me:</p>
+                    </h1>
                 </strong>
+                <div class="container">
+                    <form action="action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your Name">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your Last Name">
+                        <label for="email">Email Adress:</label>
+                        <input type="text" id="email" name="Email" placeholder="example@gmail.com">
 
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write some wisdom here..." style="height:200px"></textarea>
+                        <input type="submit" value="submit">
 
+                    </form>
+                </div>
 
             </div>
 
