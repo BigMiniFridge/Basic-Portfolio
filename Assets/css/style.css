@@ -36,6 +36,15 @@ html {
 
 }
 
+.maincontentportfolio {
+
+    float: right;
+   padding-top: 150px;
+   
+    
+
+}
+
 
 
 .maincontent > .child {
@@ -123,6 +132,7 @@ h1 {
     padding-bottom: 30px;
     border-bottom: 2px solid rgb(219, 112, 11);
     color: rgb(219, 112, 11);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 }
 
@@ -150,14 +160,14 @@ h1 {
 
 }
 
-.column {
+.col-sm-4 {
    
 flex: 25%;
 max-width: 25%;
 padding: 0 15px;
 
 }
-.column img {
+.col-sm-4 img {
 
     margin-top: 8px;
     vertical-align: middle;
@@ -167,13 +177,13 @@ padding: 0 15px;
 
 }
 
-.column img:hover{
+.col-sm-4 img:hover{
     opacity: 1;
     cursor: pointer
 }
 
 @media screen and (max-width: 100%) {
-    .column {
+    .col-sm-4 {
 
         flex: 100%;
         max-width: 100%;
